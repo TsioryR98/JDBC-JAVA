@@ -9,7 +9,7 @@ import static java.sql.DriverManager.getConnection;
 public class DataBaseFunction {
     private static final String URL = "jdbc:postgresql://localhost:5432/jdbc_datatest";
     private static final String User = "postgres";
-    private static final String Password = "tsiory98";//for test
+    private static final String Password = "tsiory98";//for test for connect easily
 
     static {
         //initialize and save postgres Driver
